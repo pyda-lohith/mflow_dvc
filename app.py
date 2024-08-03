@@ -5,6 +5,9 @@
 import os
 import warnings
 import sys
+import dagshub
+dagshub.init(repo_owner='pyda-lohith', repo_name='mflow_dvc', mlflow=True)
+
 
 import pandas as pd
 import numpy as np
